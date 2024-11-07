@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.Pic{
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.Pic{
+   width: 950px;
+   height: 450px;
+   margin-top: 50px;
+   border-radius: 10px;
+}
+
+.Pic:hover{
+    opacity: 50%;
+}
+
+.texts{
+    position: absolute;
+    color: rgb(255, 157, 0);
+    margin-top: -420px;
+    margin-right: 600px;
+    font-size: 90px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.textss{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: -270px;
+    margin-right: 370px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+}
+
+.textk{
+    position: absolute;
+    color: rgb(255, 0, 0);
+    margin-top: -290px;
+    margin-right: 750px;
+    font-size: 62px;
+    text-shadow: 1px 1px 2px black;
+}

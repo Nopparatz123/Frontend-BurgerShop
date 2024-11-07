@@ -1,0 +1,27 @@
+
+.crad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.crad img{
+  width: 280px;
+  height: 200px;
+  margin-top: -160px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.6s ease;
+}
+
+
+.crad img:hover{
+    scale: 1.1;
+    opacity: 40%;
+    
+}
+
+img{
+    margin: 10px;
+}

@@ -1,0 +1,77 @@
+.menu{
+    margin: 10px;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.texth2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.menu p,.buttonn{
+     
+    padding: 6px;
+    margin: 10px;
+    margin-top: 30px;
+
+   
+}
+
+.menu p{
+    color: white;
+   
+}
+
+
+.menu button{
+    
+    padding-left: 7px;
+    border-radius: 10px;
+    width: 100px;
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+
+.menu button:hover{
+    background-color: tomato;
+}
+
+
+.boxcrad{
+    
+    width: 240px;
+    height: 250px;
+    border-radius: 10px;
+
+    /* จัดกลางแบบเหี้ยไรก็ไม่้รู้ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 790px;
+    filter: drop-shadow(0px  1px 10px rgb(255, 255, 255));
+   
+}
+
+.boxcrad img{
+    border-radius: 10px;
+    width: 240px;
+    height: 190px;
+    border: solid 8px white;
+}
+
+.boxcrad img:hover{
+    scale: 1.1;
+}
+
+
+
